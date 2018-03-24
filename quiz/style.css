@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(83, 47, 61);
+}
+.grid {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: ffff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border :2px solid rgb(0, 255, 128);
+    box-shadow: 10px 15px 5px black;
+
+
+}
+.grid h1 {
+    font-family :sans-serif;
+    background-color: blueviolet;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+.grid #question{
+    font-family: sans-serif;
+    font-size:30px;
+    color:#ee09a1;
+}
+.buttons {
+    margin-top: 30px;
+}
+#btn0 , #btn1,#btn2,#btn3 {
+    background-color: #778897;
+    width: 250px;
+    font-size:20px;
+    color: #fff;
+    border: 1px solid #09f156;
+    border-radius: 50px;
+    margin:10px 40px 10px 0px;
+    padding: 10px 10px;
+
+
+}
+#progress{
+    color: #11f081;
+    font-size: 20px;
+}
+#score{
+    color: #11f081;
+    font-size: 40px;
+}
